@@ -1,0 +1,121 @@
+.home {
+  background: #0f0f0f;
+  height: 2246px;
+  box-sizing: border-box;
+  z-index: -3;
+}
+.hero {
+  padding-top: 140px;
+  margin-left: 360px;
+  position: relative;
+  z-index: 0;
+}
+.home > .hero > .Hero-text {
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.Hero-text > .text1 {
+  color: var(--primary, #854823);
+  margin-left: 10px;
+}
+
+.Hero-text > .text2 {
+  color: var(--primary, #854823);
+}
+.hero > button {
+  border-radius: 5px;
+  background: var(
+    --linear-gradiant,
+    linear-gradient(180deg, #854823 20.72%, #333 100%)
+  );
+  width: 200px;
+  height: 50px;
+  border: none;
+  margin-top: 30px;
+}
+
+.hero > .getStarted > .innerText {
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero > .shade {
+  width: 663px;
+  height: 740px;
+  background: linear-gradient(93deg, #0f0f0f 9.01%, rgba(15, 15, 15, 0) 96.91%);
+  position: absolute;
+  top: 24px;
+  left: 240px;
+  z-index: -1;
+}
+.hero > .image {
+  background-image: url("../../assets/unsplash_5PRQsEGkE10.jpg");
+  z-index: -2;
+  width: 663px;
+  height: 740px;
+  position: absolute;
+  top: 24px;
+  left: 240px;
+}
+
+.browse-title {
+  color: var(--secondary, #4b6f44);
+  font-family: "Century Gothic";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 370px;
+  margin-left: 27%;
+}
+.search-bar {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 32%;
+}
+.search-bar > input {
+  width: 40%;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 25px 0px 0px 25px;
+  background: #fff;
+  border: none;
+  padding-left: 32px;
+}
+.search-bar > input:focus {
+  outline: none;
+}
+
+.search-bar > input::placeholder {
+  color: #854823;
+  font-family: "Century Gothic";
+  font-size: 100%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.search-bar > .search-button {
+  width: 71px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 0px 25px 25px 0px;
+  background: #854823;
+  border: none;
+}
+
+.Cards {
+  margin-top: 120px;
+}

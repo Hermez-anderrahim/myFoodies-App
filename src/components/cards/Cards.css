@@ -1,0 +1,70 @@
+.card {
+  width: 360px;
+  height: 500px;
+  border-radius: 4%;
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.photo {
+  background-image: url(../../assets/Rectangle.jpg);
+  background-repeat: cover no-repeat;
+  border-radius: 4%;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  margin-left: 130px;
+}
+.info h2 {
+  width: 236px;
+  color: var(--primary, #854823);
+  font-family: "Century Gothic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.card > .photo {
+  width: 360px;
+  height: 329px;
+}
+.rating {
+  display: flex;
+  margin-top: 10px;
+}
+.rating-number {
+  width: 48.053px;
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.rating-star {
+  margin-top: -3px;
+  margin-left: -4px;
+}
+
+.open-like {
+  display: flex;
+  margin-top: 30px;
+}
+.open-like > .available {
+  margin-left: -120px;
+  width: 98px;
+  color: #008000;
+  font-family: "Century Gothic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.open-like > .like {
+  margin-left: 200px;
+}

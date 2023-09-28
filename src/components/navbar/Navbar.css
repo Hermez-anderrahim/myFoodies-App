@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+.navbar > .logo {
+  margin-left: 48px;
+  color: #fff;
+
+  font-family: "Century Gothic";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+}
+.navbar > .links {
+  width: 52%;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: rgba(23, 23, 23, 0.5);
+  display: flex;
+  justify-content: space-between;
+  font-family: "Century Gothic";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 37px;
+  margin-top: 40px;
+  margin-right: 53px;
+  border-radius: 25px;
+}
+
+.navbar > .links:hover {
+  box-shadow: 0px 0px 25px 1px rgba(255, 255, 255, 0.25);
+}
+
+.navbar > .links > .link {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 19px;
+}
+.links > .link::after {
+  content: "";
+  background: #854823;
+  width: 80px;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  opacity: 0;
+  transition: all 0.4s;
+  pointer-events: none;
+}
+.navbar > .links > .signup {
+  margin-right: 26px;
+}
+
+.navbar > .links > .login {
+  color: var(--secondary, #4b6f44);
+}
+
+.navbar > .links > .signup {
+  color: var(--primary, #854823);
+}
+.links > .link:hover::after {
+  opacity: 1;
+}
+
+.navbar > .links > .signup::after {
+  width: 80px;
+}
+.navbar > .links > .myfoodies::after {
+  width: 120px;
+}
+.navbar > .links > .login::after {
+  width: 64px;
+}
+.navbar > .links > .Home::after {
+  width: 64px;
+}
