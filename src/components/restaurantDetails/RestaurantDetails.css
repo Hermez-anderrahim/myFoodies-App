@@ -4,15 +4,13 @@
 }
 .more-info {
   display: flex;
-  gap: 61px;
+  gap: 120px;
 }
-
-.res-image {
-  background: url(../../assets/Rectangle.jpg);
+img {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
-  width: 447px;
+  width: 500px;
   height: 392px;
   flex-shrink: 0;
 }
@@ -24,7 +22,6 @@
 .res-name {
   color: var(--primary, #854823);
 
-  /* h1 */
   font-family: "Century Gothic";
   font-size: 50px;
   font-style: normal;
@@ -34,14 +31,13 @@
 .delivery {
   color: #fff;
   margin-top: 40px;
-  /* h3 */
   font-family: Century Gothic;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.rating-number {
+.rating-number2 {
   width: 48.053px;
   color: #fff;
   font-family: "Century Gothic";
@@ -51,7 +47,7 @@
   line-height: normal;
   margin-left: 60px;
 }
-.rating-star {
+.rating-star2 {
   margin-left: 10px;
   margin-top: -9px;
 }

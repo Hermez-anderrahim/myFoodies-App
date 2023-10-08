@@ -21,7 +21,7 @@
   height: 70px;
   flex-shrink: 0;
   border-radius: 25px;
-  background: rgba(23, 23, 23, 0.5);
+
   display: flex;
   justify-content: space-between;
   font-family: "Century Gothic";

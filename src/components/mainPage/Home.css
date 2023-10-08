@@ -118,4 +118,9 @@
 
 .Cards {
   margin-top: 120px;
+  display: flex;
+  width: 94%;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 60px;
 }
