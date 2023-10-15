@@ -37,18 +37,7 @@ export const Home = ({restaurant, setrestaurant }) => {
   
 
   
-   const handleLikeCick = (id)=>{
-
-      arrayWithIds(item=>{
-        item.map(data=>{
-          if (data.id == id) {
-          let newItem1 = {...data,liked:true}
-         return (newItem1)
-        }
-      }
-        )
-      })         
-   } 
+   
  
 
    
