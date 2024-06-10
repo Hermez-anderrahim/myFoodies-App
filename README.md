@@ -73,3 +73,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```javascript
+// src/components/Message.js
+
+import React from 'react';
+
+const Message = ({ text }) => {
+    return <div className="message">{text}</div>;
+};
+
+export default Message;
