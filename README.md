@@ -1,6 +1,11 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+# Getting Started with Create React App
+![image](https://github.com/Hermez-anderrahim/myFoodies-App/assets/123983374/ea982062-f727-40f3-817d-628df33bbba1)
+
+This project was bootstrappd with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -62,9 +67,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
-
+`hiiiiii`
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+```javascript
+// src/components/Message.js
+
+import React from 'react';
+
+const Message = ({ text }) => {
+    return <div className="message">{text}</div>;
+};
+
+export default Message;
