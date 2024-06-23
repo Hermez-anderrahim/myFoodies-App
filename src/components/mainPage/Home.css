@@ -3,6 +3,7 @@
   height: 2246px;
   box-sizing: border-box;
   z-index: -3;
+  overflow-x: hidden;
 }
 .hero {
   padding-top: 140px;
@@ -31,13 +32,16 @@
   color: var(--primary, #854823);
 }
 .hero > button {
+  cursor: pointer;
   border-radius: 5px;
   background: var(
     --linear-gradiant,
     linear-gradient(180deg, #854823 20.72%, #333 100%)
   );
-  width: 200px;
-  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: none;
   margin-top: 30px;
 }

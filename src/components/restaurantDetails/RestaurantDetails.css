@@ -11,7 +11,7 @@ img {
   background-size: cover;
   border-radius: 16px;
   width: 500px;
-  height: 392px;
+  height: 500px;
   flex-shrink: 0;
 }
 
@@ -50,4 +50,27 @@ img {
 .rating-star2 {
   margin-left: 10px;
   margin-top: -9px;
+}
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  background: var(
+    --linear-gradiant,
+    linear-gradient(180deg, #854823 20.72%, #333 100%)
+  );
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  margin-top: 30px;
+}
+
+.getStarted > .innerText {
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
